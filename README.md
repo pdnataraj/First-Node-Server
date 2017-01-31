@@ -9,4 +9,4 @@ After going to a few hackathons, I realized I knew absolutely nothing about web 
 _If you want to learn more about me, please visit my Flickr account [here](https://www.flickr.com/photos/106845995@N06/)!_
 
 And just for fun, here's my inner octocat...
-![innerOctocat](https://octodex.github.com/octobiwan)
+![innerOctocat](https://octodex.github.com/images/octobiwan.jpg)
