@@ -7,3 +7,6 @@ This is my first web server. I use node.js to make a simple web server which the
 After going to a few hackathons, I realized I knew absolutely nothing about web application development and it seems so cool!
 
 _If you want to learn more about me, please visit my Flickr account [here](https://www.flickr.com/photos/106845995@N06/)!_
+
+And just for fun, here's my inner octocat...
+![innerOctocat](https://octodex.github.com/octobiwan)
