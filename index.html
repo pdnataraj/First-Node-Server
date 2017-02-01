@@ -19,33 +19,33 @@
             background-color: #666;
         }
     </style>
-    
+
 </head>
 <body>
     <div id="container">
         <video autoplay="true" id="videoElement">
-        
+
         </video>
     </div>
-    
+
     <script>
         var video = document.querySelector("#videoElement");
         navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
-        
-        if (navigator.getUserMedia) 
-        {       
+
+        if (navigator.getUserMedia)
+        {
             console.log("before streamWebCam")
             navigator.getUserMedia({video: true}, streamWebCam, videoError);
             console.log("after streamWebCam")
         }
- 
+
        function streamWebCam (stream) {
 				video.src = window.URL.createObjectURL(stream);
 
 			}
 
- 
-        function videoError(e) 
+
+        function videoError(e)
         {
             alert(e.name);
         }
